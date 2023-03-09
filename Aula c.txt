@@ -1,0 +1,26 @@
+#include <stdio.h> /* diretiva de pre processamento inclui arquivo cabeçalho
+main() { /* main é a função principal*/
+/* printf é uma função de saida */
+    printf("Meu primeiro programa"); // Barra dupla insere comentario em uma linha 
+} // Os blocos de instruções são delimitados por chaves 
+printf("%i",123..) -> %i(inteiro)
+printf(" ");
+/n(quebra linha) tem que estar entre ""
+"%f" ponto flutuante ou float, para numeros com decimais
+math.h{ biblioteca de matematica 
+#include <math.h>
+pow(potencia)
+tipo nome; nome =  dado; { float x(7.8);
+#include <stdio.h>
+main() {	
+ float ap1, ap2, ac;
+ float media;
+media =  0.4*(8.5+7.3)+0.2*5;
+printf("%f", media);
+scanf("%f", &x);
+tipo de saida, vai alocar os dados da variavel
+main() {
+float num1, num2; //declare variáries de ponto flutuante
+printf("digite os numeros\n")//aprensenta as informações ao console
+scanf("%f %f", &num1, &num2);// le os dois numeros de ponto flutuante - formato scanf(<cadeia de caracteres de controle>,<lista de ponteiros dos argumentos>);
+printf("%f", num1+num2); // formato printf(<cadeia de caracteres de controle>), lista de argumentos

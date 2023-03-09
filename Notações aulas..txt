@@ -1,0 +1,34 @@
+JAVAscript
+={ recebe
+prompt{ input(python)
+null{vazio
+var{variavel(necessita de um nome)[pode receber valores e caracteres]
+indentifadores{ podem começar com letras,$ou_, não podem começar com numeros, possivel usar letras e numeros, e pode usar acentos e simbolos
+não podem conter espaços e NÃO PODE CONTER PALAVRAS UTILIZADAS PELO JS.
+Js> Number[infinity e NaN], String, Boolean, Null, Undefined, Object[Array], Function.
+Number.parsetint(n){ inteiro
+Number.parsefloat(n){ Real
+// Number(n) é uma abreviação atualizada e muito mais pratica
+|Formatação de Strings
+var s = 'JavaScript'
+ \'eu estou aprendendo s' // não faz interpolação
+  \'eu estou aprendendo' + s//faz concatenação
+   \'eu estou aprendendo ${s}// usa template string
+s.length// quantos caracteres a string(s) possui
+s.toUpperCase()//tudo para letras Maiúsculas
+s.toLowerCase()//tudo para letras minúsculas
+var n1 = 1545.5
+n1.toFixed(2)
+n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
+let em uma variavel pode ser reutilizado com um diferente valor 
+|Operadores{aritméticos, atribuição, relacionais, lógicos, ternário
+\Aritméticos{ +, -, *, /, %, **
+\precedência
+ |> ()
+  \ **
+   \ *,/ ,%
+    \ + ,-
+<DICAS>
+Maiúsculas e minusculas em uma variavel, fazem diferença.
+Tentar escolher nomes coerentes para evitar confusão.
+
